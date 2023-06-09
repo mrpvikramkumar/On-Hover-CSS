@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(243, 228, 200);
+    margin-top: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+.thumbnails img{
+    height: 80px;
+        border: 5px solid black;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover{
+    border: 4px solid aqua;
+}
+
+.preview img{
+    border: 4px solid;
+    padding: 1px;
+    width: 800px;
+}
+
+::selection {
+    background: aquamarine;
+  }
+    

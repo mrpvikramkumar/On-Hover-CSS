@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 style="text-align:center; ">Welcome!!!</h1>
+
+    <div class="thumbnails" align="center">
+
+        <img onmouseover="preview.src=1" name='1' src="./images/1.jpeg" alt="">
+        <img onmouseover="preview.src=2" name='2' src="./images/2.JPG" alt="">
+        <img onmouseover="preview.src=3" name='3' src="./images/3.jpeg"  alt="">
+        <img onmouseover="preview.src=4" name='4' src="./images/4.png"  alt="">
+        <img onmouseover="preview.src=5" name='5' src="./images/5.png" alt="">
+    </div>
+
+    <div class="preview" align="center">
+
+        <img name='preview' src="./images/1.jpeg" alt="">
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 style="text-align:center;">Welcome!!!</h1>
+
+    <div class="thumbnails" align="center">
+
+        <img id="thumbnail1" onmouseover="preview.src = this.src" src="./images/1.jpeg" alt="">
+        <img id="thumbnail2" onmouseover="preview.src = this.src" src="./images/2.JPG" alt="">
+        <img id="thumbnail3" onmouseover="preview.src = this.src" src="./images/3.jpeg" alt="">
+        <img id="thumbnail4" onmouseover="preview.src = this.src" src="./images/4.png" alt="">
+        <img id="thumbnail5" onmouseover="preview.src = this.src" src="./images/5.png" alt="">
+    </div>
+
+    <div class="preview" align="center">
+
+        <img id="preview" src="./images/1.jpeg" alt="">
+    </div>
+</body>
+</html>
